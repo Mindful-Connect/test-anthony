@@ -1,0 +1,86 @@
+.NewApplicants {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #d8d8d8;
+  border-radius: 8px;
+  opacity: 1;
+  padding: 20px;
+  width: 300px;
+  height: 610px;
+  position: relative;
+  margin-right: 20px;
+
+  .Company {
+    margin-bottom: 10px;
+  }
+
+  .NewApplicants-header {
+    width: 131px;
+    height: 45px;
+    margin-left: 13px;
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h2 {
+      /* UI Properties */
+      // text-align: left;
+      font: normal normal 700 18px/21px Ubuntu;
+      letter-spacing: 0px;
+      color: #2aceb6;
+      opacity: 1;
+      width: 131px;
+      height: 20px;
+    }
+
+    h4 {
+      width: 105px;
+      height: 20px;
+      /* UI Properties */
+      text-align: left;
+      font: normal normal normal 18px/21px Ubuntu;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+    }
+  }
+  button {
+    right: 0;
+    top: 0;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    /* UI Properties */
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #d8d8d8;
+    border-radius: 8px;
+    opacity: 1;
+    margin: 20px 20px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    div {
+      width: 18px;
+      height: 18px;
+      /* UI Properties */
+      background: #2aceb6 0% 0% no-repeat padding-box;
+      opacity: 1;
+    }
+  }
+
+  .bookmark {
+    width: 8px;
+    height: 74px;
+    /* UI Properties */
+    background: #2aceb6 0% 0% no-repeat padding-box;
+    border-radius: 0px 8px 8px 0px;
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 11px;
+  }
+}
